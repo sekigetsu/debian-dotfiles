@@ -16,7 +16,15 @@ sudo usermod -aG sudo user
 
 ## Installations
 ```
-sudo apt install zsh stow neovim flatpak jq curl openvpn openssh iproute2 alacritty wget curl git lf
+sudo apt install zsh stow neovim flatpak jq curl openvpn flameshot keepassxc iproute2 alacritty wget curl git lf
+```
+
+```
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+```
+flatpak install flathub chat.simplex.simplex
 ```
 
 ```
@@ -94,8 +102,12 @@ cd debian-dotfiles
 stow.
 ```
 
-## Deletions
+## Final steps
 
 ```
 sudo apt purge firefox-esr
+```
+
+```
+chsh
 ```

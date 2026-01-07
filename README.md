@@ -105,7 +105,7 @@ stow.
 ## Final steps
 
 ```
-sudo apt purge firefox-esr
+sudo apt purge firefox-esr vim
 ```
 
 ```

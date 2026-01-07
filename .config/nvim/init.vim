@@ -20,7 +20,6 @@ Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ap/vim-css-color'
 Plug 'vim-scripts/AutoComplPop'
-Plug 'AlphaTechnolog/pywal.nvim', { 'as': 'pywal' }
 call plug#end()
 
 set title
@@ -36,7 +35,6 @@ set noshowmode
 set noruler
 set laststatus=0
 set noshowcmd
-colorscheme pywal
 
 " Some basics:
 	nnoremap c "_c

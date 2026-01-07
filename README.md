@@ -1,11 +1,11 @@
 # Setup for my Debian VM.
 
-##Keyboard
+## Keyboard
 ```
 setxkbmap -option caps:swapescape
 ```
 
-##Allow sudo
+## Allow sudo
 ```
 su root
 ```
@@ -14,7 +14,7 @@ su root
 sudo usermod -aG sudo user
 ```
 
-##Installations
+## Installations
 ```
 sudo apt install zsh stow neovim flatpak jq curl openvpn openssh iproute2 alacritty wget curl git lf
 ```
@@ -60,7 +60,7 @@ sudo apt update
 sudo apt install -y dangerzone
 ```
 
-##VPN
+## VPN
 ```
 git clone https://github.com/BarbossHack/RiseupVPN-OpenVPN.git
 ```
@@ -81,7 +81,7 @@ sudo openvpn --config riseup-ovpn.conf
 curl ipinfo.io
 ```
 
-##Configuration
+## Configuration
 ```
 git clone https://github.com/sekigetsu/debian-dotfiles.git
 ```
@@ -94,9 +94,8 @@ cd debian-dotfiles
 stow.
 ```
 
-##Deletions
+## Deletions
 
 ```
 sudo apt purge firefox-esr
 ```
-# debian-dotfiles

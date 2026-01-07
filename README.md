@@ -16,7 +16,7 @@ sudo usermod -aG sudo user
 
 ## Installations
 ```
-sudo apt install zsh stow neovim flatpak jq curl openvpn flameshot keepassxc iproute2 alacritty wget curl git lf
+sudo apt install zsh stow neovim flatpak jq curl openvpn flameshot keepassxc iproute2 alacritty wget curl git lf syncthing
 ```
 
 ```
@@ -110,4 +110,12 @@ sudo apt purge firefox-esr
 
 ```
 chsh
+```
+
+```
+rmdir Music Templates Public Videos
+```
+
+```
+mkdir unsafe-pdfs cleaned pdfs
 ```

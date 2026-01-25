@@ -117,5 +117,5 @@ rmdir Music Templates Public Videos
 ```
 
 ```
-mkdir unsafe-pdfs cleaned pdfs
+mkdir unsafe-pdfs cleaned-pdfs
 ```
